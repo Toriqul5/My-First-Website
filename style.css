@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+body {
+    line-height: 1.6;
+    color: #000000;
+}
+
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .logoh1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+
+  }
+
+  .div1{
+    border: 2px solid;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .div2{
+    border: 2px solid;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .div3{
+    border: 2px solid;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .login-btn {
+    background: rgb(137, 9, 9);
+    border: 1px solid black;
+  }
+  
+  .get-started-btn {
+    background: black;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+  .language-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+  }br
+/*
+.hero {
+    position: relative;
+    height: 80vh;
+    background: url(qwertyu) no-repeat center center/cover;
+}*/
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+} 
+
+.offer-box {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 1px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.h12{
+    color: #c9fb88;
+    font-size: 2.5rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+   
+    
+}
+
+
+.form-group select,
+.input-text {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.find-offer-btn {
+    margin-top: 10px;
+    background-color: #00c7c7;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.why-zeppr {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 7.5px;
+    padding: 5px;
+    background-color: #ffff;
+}
+
+.why-zeppr:hover{
+  background-color: #1c008b;
+  color: #fff;
+}
+
+.offer-box{
+    margin: 2px 0px 2px 0px ;
+    background: url(/images/Rectangle\ 1.png);
+    height: 300px;
+    
+}
+
+.features {
+    background-color: #efc90b;
+    padding: 50px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 20px;
+}
+
+.icon-list img {
+    width: 800px;
+    margin: 0 15px;
+}
+
+.feature-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature-item img {
+    width: 50px;
+}
+
+.feature-item h3 {
+    margin: 10px 0;
+}
+
+.full-features-btn {
+    text-align: center;
+    margin: 20px;
+}
+
+.full-features-btn button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Buy & Sell Section*/
+.buy-sell-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f7f7f7;
+    
+}
+
+.buy, .sell {
+    width: 45%;
+    height: 10%;
+}
+
+.offer-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buy-sell button {
+    padding: 10px 20px;
+    background-color: #00d1b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.offer-card img {
+  width: 50px;
+  margin-bottom: 10px;
+ 
+  display: flex;
+}
+
+.zero1{
+  height: px;
+  width: 100%;
+  font-size: 75px;
+  text-align: center;
+  background-color: rgb(168, 86, 246);
+  padding-top: 50px;
+}
+
+.get{
+  border: 1px solid;
+  padding-left: 30px ;
+  padding-right: 30px;
+  background-color: #000;
+  color: #fff;
+  font-size: large;
+}
+
+.ul{
+  display: grid;
+  column-gap: 50px;
+}
+
+.footer-container{
+  display: flex;
+  grid-template-columns: 15px 15px 15px 15px;
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+ul{
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer{
+  background-color: #000;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+ 
+pre{
+  font-family: 'Times New Roman', Times, serif;
+}
